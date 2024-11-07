@@ -1,23 +1,98 @@
 .App {
+  width: 100vw;
+  height: 100vh;
   text-align: center;
   font-family: Arial, sans-serif;
 }
+body{
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #191b1f;
+  font-family: var(--lexen_deca), sans-serif;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
 
-header {
-  background-color: #282c34;
+nav {
+  background-color: #191b1f;
   padding: 20px;
   color: white;
+  text-align: end;
 }
 
-nav ul {
+nav ul a{
   list-style-type: none;
   padding: 0;
+  color: white;
 }
+nav button a{
+  color: black;
+  border: none;
+}
+
 
 nav ul li {
   display: inline;
   margin: 0 15px;
+  color: white;
 }
+/*HOME STYLES*/
+.home{
+  margin-left: 3rem;
+  color: white;
+  text-align: left;
+}
+.home h1{
+    max-width: 20%;
+    margin: 0;
+    color: white;
+    font-family: var(--lexen_deca), sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: -.4px;
+}
+.btn{
+  margin-top: 3rem;
+  height: 24px;
+    padding-left: 12px;
+    border-radius: 2rem;
+    border:none;
+    line-height: 1.2;
+    justify-content: start;
+    align-items: center;
+    gap: 4px;
+    color: white;
+    font-weight: 500;
+    background-color: #9cbce6;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 70px;
+    text-align: center;
+
+    
+    
+}
+.btn a{
+  color: white;
+}
+.signup{
+  color: white;
+}
+.login{
+   color: white;
+}
+.dashboard{
+  color: white;
+}
+.script{
+  color: white;
+}
+
+
 
 main {
   padding: 20px;

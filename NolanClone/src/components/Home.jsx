@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <section id="home">
-      <p>Bring your film project to live from idea to production</p>
-      <buttton><Link to='/script'>Create Script</Link></buttton>
+    <section className="home">
+      <h1>Bring your film project to life from
+      idea to production</h1>
+      <buttton className='btn'><Link to='/script'>Create Script</Link></buttton>
       
     </section>
   );

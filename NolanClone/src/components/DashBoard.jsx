@@ -2,9 +2,9 @@ import React from 'react';
 
 const DashBoard = ({ scripts }) => {
     return (
-        <section id="dashboard">
+        <section className="dashboard">
             <h2>Dashboard</h2>
-            <p>Welcome to your dashboard! Here you can manage your scripts.</p>
+            <p>Welcome to your dashboard! manage your scripts here.</p>
             <div id="script-list">
                 <h3>Your Scripts</h3>
                 <ul>

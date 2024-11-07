@@ -82,7 +82,7 @@ function App() {
                     <p>{scriptMessage}</p>
                 </main>
                 <footer>
-                    <p>&copy; 2024 ChatGPT Web App</p>
+                    <p>&copy; NolanAI, Inc. 2024Inc. 2024</p>
                 </footer>
             </div>
         </Router>

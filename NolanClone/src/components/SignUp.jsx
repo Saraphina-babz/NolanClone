@@ -20,7 +20,7 @@ const SignUp = ({ setSignUpMessage }) => {
     };
 
     return (
-        <section id="signup">
+        <section className="signup">
             <h2>Sign Up</h2>
             <form onSubmit={handleSignUp}>
                 <label htmlFor="email">Email:</label>

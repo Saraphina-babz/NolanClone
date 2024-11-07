@@ -22,8 +22,8 @@ const Login = ({ setIsAuthenticated, setLoginMessage }) => {
     };
 
     return (
-        <section id="login">
-            <h2>Authentication</h2>
+        <section className="login">
+            <h2>LOG IN</h2>
             <form onSubmit={handleLogin}>
                 <label htmlFor="email">Email:</label>
                 <input
