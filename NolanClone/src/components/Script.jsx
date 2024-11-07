@@ -16,7 +16,7 @@ const Script = ({ setScripts, setScriptMessage }) => {
     return (
         <section className="script">
             <h2>Create Script</h2>
-            <form onSubmit={handleScriptCreation}>
+            <form onSubmit={handleScriptCreation} className='scriptForm'>
                 <label htmlFor="script-name">Script Name:</label>
                 <input
                     type="text"

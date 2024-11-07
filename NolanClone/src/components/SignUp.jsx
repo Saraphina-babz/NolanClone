@@ -22,7 +22,7 @@ const SignUp = ({ setSignUpMessage }) => {
     return (
         <section className="signup">
             <h2>Sign Up</h2>
-            <form onSubmit={handleSignUp}>
+            <form onSubmit={handleSignUp} className='signin'>
                 <label htmlFor="email">Email:</label>
                 <input
                     type="email"
