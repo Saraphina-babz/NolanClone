@@ -1,13 +1,18 @@
 {
-    "hosting": {
-       "rewrites": [
-          {
-             "source": "/(.*)",
-             "destination": "/"
-          }
-       ],
-       "404": "/404.html" 
-    }
- }
- 
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ],
+    "routes": [
+      {
+        "handle": "filesystem"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/404.html"
+      }
+    ]
+  }
   
