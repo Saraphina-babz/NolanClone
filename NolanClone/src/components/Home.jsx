@@ -6,7 +6,7 @@ const Home = () => {
     <section className="home">
       <h1>Bring your film project to life from
       idea to production</h1>
-      <buttton className='btn'><Link to='/script'>Create Script</Link></buttton>
+      <button className='btn'><Link to='/script'>Create Script</Link></button>
       
     </section>
   );
