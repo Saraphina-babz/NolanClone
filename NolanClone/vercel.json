@@ -1,3 +1,13 @@
 {
-   "rewrites":[{"source":"/(.*)","destination":"/"}] 
-}
+    "hosting": {
+       "rewrites": [
+          {
+             "source": "/(.*)",
+             "destination": "/"
+          }
+       ],
+       "404": "/404.html" 
+    }
+ }
+ 
+  
